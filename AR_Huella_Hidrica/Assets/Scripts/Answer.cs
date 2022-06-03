@@ -1,18 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Answer : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private string correctAnswer;
+    [SerializeField] private Text messageForUsers;
+
+    public void CheckAnswer(string answerFromButton)
     {
-        
+        string newMessage = "¡Acertaste!";
+
+        if (!IsAnswerCorrect(answerFromButton))
+        {
+            newMessage = "¡UPS! Prueba otra vez";
+        }
+
+        SendMessageToUsers(newMessage);
     }
 
-    // Update is called once per frame
-    void Update()
+    private bool IsAnswerCorrect(string answerFromButton)
     {
-        
+        return answerFromButton == correctAnswer;
+    }
+
+    private void SendMessageToUsers(string message)
+    {
+        messageForUsers.text = message;
     }
 }
