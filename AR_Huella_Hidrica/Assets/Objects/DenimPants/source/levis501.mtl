@@ -1,0 +1,92 @@
+# Blender MTL File: 'levis501.blend'
+# Material Count: 7
+
+newmtl BTN_FABRIC_FRONT_1546247
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump /Users/shivayuce/Desktop/3D/Projects/Marvelous/Selling/substance/textures/levis501/BTN_FABRIC_FRONT_1546247_Normal_1001.png
+map_Kd /Users/shivayuce/Desktop/3D/Projects/Marvelous/Selling/substance/textures/levis501/BTN_FABRIC_FRONT_1546247_Base_Color_1001.png
+map_Ns /Users/shivayuce/Desktop/3D/Projects/Marvelous/Selling/substance/textures/levis501/BTN_FABRIC_FRONT_1546247_Roughness_1001.png
+refl /Users/shivayuce/Desktop/3D/Projects/Marvelous/Selling/substance/textures/levis501/BTN_FABRIC_FRONT_1546247_Metallic_1001.png
+
+newmtl Material2441.001
+Ns 13.275042
+Ka 1.000000 1.000000 1.000000
+Kd 0.181656 0.132084 0.056655
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Material2557
+Ns 48.462010
+Ka 0.216590 0.216590 0.216590
+Kd 0.397532 0.041625 0.041625
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 3
+
+newmtl beltthing_FRONT_4341425
+Ns 28.763246
+Ka 1.000000 1.000000 1.000000
+Kd 0.102140 0.155130 0.234633
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump /Users/shivayuce/Desktop/3D/Projects/Marvelous/Selling/substance/textures/levis501/beltthing_FRONT_4341425_Normal_1001.png
+map_Kd /Users/shivayuce/Desktop/3D/Projects/Marvelous/Selling/substance/textures/levis501/beltthing_FRONT_4341425_Base_Color_1001.png
+map_Ns /Users/shivayuce/Desktop/3D/Projects/Marvelous/Selling/substance/textures/levis501/beltthing_FRONT_4341425_Roughness_1001.png
+refl /Users/shivayuce/Desktop/3D/Projects/Marvelous/Selling/substance/textures/levis501/beltthing_FRONT_4341425_Metallic_1001.png
+
+newmtl label2_FRONT_5267410
+Ns 28.763246
+Ka 1.000000 1.000000 1.000000
+Kd 0.449981 0.290424 0.176465
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump /Users/shivayuce/Desktop/3D/Projects/Marvelous/Selling/substance/textures/levis501/label2_FRONT_5267410_Normal_1001.png
+map_Kd /Users/shivayuce/Desktop/3D/Projects/Marvelous/Selling/substance/textures/levis501/label2_FRONT_5267410_Base_Color_1001.png
+map_Ns /Users/shivayuce/Desktop/3D/Projects/Marvelous/Selling/substance/textures/levis501/label2_FRONT_5267410_Roughness_1001.png
+refl /Users/shivayuce/Desktop/3D/Projects/Marvelous/Selling/substance/textures/levis501/label2_FRONT_5267410_Metallic_1001.png
+
+newmtl label_small_FRONT_5050405
+Ns 28.763246
+Ka 1.000000 1.000000 1.000000
+Kd 0.572118 0.096474 0.096474
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump /Users/shivayuce/Desktop/3D/Projects/Marvelous/Selling/substance/textures/levis501/label_small_FRONT_5050405_Normal_1001.png
+map_Kd /Users/shivayuce/Desktop/3D/Projects/Marvelous/Selling/substance/textures/levis501/label_small_FRONT_5050405_Base_Color_1001.png
+map_Ns /Users/shivayuce/Desktop/3D/Projects/Marvelous/Selling/substance/textures/levis501/label_small_FRONT_5050405_Roughness_1001.png
+refl /Users/shivayuce/Desktop/3D/Projects/Marvelous/Selling/substance/textures/levis501/label_small_FRONT_5050405_Metallic_1001.png
+
+newmtl pants_FRONT_1546283
+Ns 28.763246
+Ka 1.000000 1.000000 1.000000
+Kd 0.102140 0.155130 0.234633
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump /Users/shivayuce/Desktop/3D/Projects/Marvelous/Selling/substance/textures/levis501/pants_FRONT_1546283_Normal_1001.png
+map_Kd /Users/shivayuce/Desktop/3D/Projects/Marvelous/Selling/substance/textures/levis501/pants_FRONT_1546283_Base_Color_1001.png
+map_Ns /Users/shivayuce/Desktop/3D/Projects/Marvelous/Selling/substance/textures/levis501/pants_FRONT_1546283_Roughness_1001.png
+refl /Users/shivayuce/Desktop/3D/Projects/Marvelous/Selling/substance/textures/levis501/pants_FRONT_1546283_Metallic_1001.png
