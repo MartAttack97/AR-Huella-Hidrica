@@ -483,7 +483,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 68.225}
+  m_AnchoredPosition: {x: 0, y: 68.223}
   m_SizeDelta: {x: 359.9276, y: 725.9958}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &7770472858116549897
@@ -532,11 +532,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Para el desarrollo de esta aplicaci\xF3n se han utilizado varios asssets
-    (objetos 3D, sonidos...) de acceso gratuito de la Unity AssetStore y de Sketchfab,
-    cuyos propietarios son los listados a continuaci\xF3n:\n\nBrain Fail Productions\nChaotic
-    Formula\nDeployer\nHolotna\nLowlyPoly\nLumo-Art 3D\nPulsarX Studio\nRobot Skeleton\nsivayuce\nVertex
-    Studio\nVOiD1 Gaming\n"
+  m_text: "Para el desarrollo de esta aplicaci\xF3n se han utilizado varios assets
+    (objetos 3D, sonidos...) de acceso gratuito de la unity AssetStore y de Sketchfab,
+    cuyos creadores son los listados a continuaci\xF3n:\n\nBrain Fail Productions\nChaotic
+    Formula\nDeployer\nGoumain Antoine\nHolotna\nLowlyPoly\nLumo-Art 3D\nPulsarX
+    Studio\nRizwan Ashraf\nRobot Skeleton\nsivayuce\nVertex Studio\nVOiD1 Gaming"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -563,8 +563,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 27
+  m_fontSizeBase: 27
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -976,6 +976,7 @@ GameObject:
   - component: {fileID: 7770472859604845632}
   - component: {fileID: 7770472859604845633}
   - component: {fileID: 7770472859604845634}
+  - component: {fileID: 7770472859604845636}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -983,6 +984,102 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!82 &7770472859604845636
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7770472859604845635}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d9c4ea9e0d7a90b409fc82581e1fe875, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.25
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!224 &7770472859604845639
 RectTransform:
   m_ObjectHideFlags: 0
