@@ -289,6 +289,7 @@ GameObject:
   - component: {fileID: 174442018}
   - component: {fileID: 174442017}
   - component: {fileID: 174442016}
+  - component: {fileID: 174442019}
   m_Layer: 5
   m_Name: CerrarButton
   m_TagString: Untagged
@@ -410,6 +411,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 174442014}
   m_CullTransparentMesh: 1
+--- !u!114 &174442019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174442014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28df600e78cd79040b3d64d40fd1de2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 48561ce4046fb6b469c2c38b44a1eca6, type: 3}
 --- !u!1 &476229745
 GameObject:
   m_ObjectHideFlags: 0
@@ -961,6 +975,7 @@ GameObject:
   - component: {fileID: 1256554734}
   - component: {fileID: 1256554733}
   - component: {fileID: 1256554732}
+  - component: {fileID: 1256554735}
   m_Layer: 5
   m_Name: PlayButton
   m_TagString: Untagged
@@ -1082,6 +1097,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1256554730}
   m_CullTransparentMesh: 1
+--- !u!114 &1256554735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256554730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28df600e78cd79040b3d64d40fd1de2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 3f7699a40cba8e3469c05130d9a1bd67, type: 3}
 --- !u!1 &1362031900
 GameObject:
   m_ObjectHideFlags: 0
@@ -1169,6 +1197,7 @@ GameObject:
   - component: {fileID: 1567331693}
   - component: {fileID: 1567331692}
   - component: {fileID: 1567331691}
+  - component: {fileID: 1567331694}
   m_Layer: 5
   m_Name: MasInfoButton
   m_TagString: Untagged
@@ -1290,6 +1319,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1567331689}
   m_CullTransparentMesh: 1
+--- !u!114 &1567331694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567331689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28df600e78cd79040b3d64d40fd1de2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 3f7699a40cba8e3469c05130d9a1bd67, type: 3}
 --- !u!1 &1859388568
 GameObject:
   m_ObjectHideFlags: 0
